@@ -1,8 +1,9 @@
+import React, {useState} from 'react';
 import './App.css';
 
 function App() {
 
-  const [fruit, setFruit] = useState('la fraise');
+  const [fruit, setfruit] = useState('la fraise');
 
   return (
     <div className="App">
